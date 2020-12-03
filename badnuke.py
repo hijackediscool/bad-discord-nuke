@@ -28,11 +28,7 @@ async def on_ready():
 
 
 
-@bot.command()
-async def spam(ctx, *, message):
-  await ctx.message.delete()
-  while True:
-    await ctx.send(message)
+
 
 @bot.command()
 async def lol(ctx):
